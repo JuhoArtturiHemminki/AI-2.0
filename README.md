@@ -10,7 +10,7 @@ AI 2.0 operates across three newly integrated conceptual dimensions that run con
 
 ### Axiom 1: Hierarchical Parent Clustering (The Meta-Index Layer)
 Rather than processing token elements in isolation, every discrete vocabulary item ($i$) simultaneously projects its structural signal upward to one or more shared categorical Meta-Indices ($M$).
-$$\mathbf{H}(i) = \{M_1, M_2, \dots, M_d\}, \quad \text{where } M \in \mathbb{Z}^+_{\text{meta}}$$
+$$\mathbf{H}(i) = \{M_1, M_2, \dots, M_d\}, \quad M \in \mathbb{Z}^+$$
 When a learning sequence encounters the index for `"puppy"` ($i_{45}$), the system automatically routes a fraction of the incoming structural energy through its shared overarching parent anchor `"Canine"` ($M_{100}$). Consequently, any contextual distance patterns learned by `"dog"` ($i_{12}$) immediately bleed down to benefit `"puppy"`, enabling absolute semantic generalisation across completely unencountered prompt phrases.
 
 ### Axiom 2: Dynamic Semantic Information Filtering (Informativeness Co-efficient)
